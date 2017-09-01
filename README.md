@@ -25,8 +25,11 @@ Here's an example of a simple activity that makes use of the library:
                 ListAdapter = new YourOwnAdapter();
 
                 ItemsRecyclerView.SetLayoutManager(layoutManager);
-                ItemsRecyclerView.More += ItemsRecyclerView_OnMoreAsked;
+                
+                //Works well one way or the other, pick the one you fancy
+                //ItemsRecyclerView.More += ItemsRecyclerView_OnMoreAsked;
                 ItemsRecyclerView.SetupMoreListener(this, 10);
+                
                 ItemsRecyclerView.Adapter = ListAdapter;
 
                 base.OnCreate(savedInstanceState);
