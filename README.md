@@ -21,6 +21,8 @@ namespace Com.Example.Activities
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            base.OnCreate(savedInstanceState);
+            
             SetContentView(Resource.Layout.UserList);
 
             ItemsRecyclerView = FindViewById<SuperRecyclerView>(Resource.Id.itemsRecyclerView);
@@ -35,8 +37,6 @@ namespace Com.Example.Activities
             ItemsRecyclerView.SetupMoreListener(this, 10);
             
             ItemsRecyclerView.Adapter = ListAdapter;
-
-            base.OnCreate(savedInstanceState);
         }
 
         protected override void OnDestroy()
