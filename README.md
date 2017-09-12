@@ -68,4 +68,4 @@ https://www.nuget.org/packages/Tharkius.SuperSharpRecyclerView/1.0.0
 
 
 
-**NOTE:** SuperRecyclerView was originally built with Android API 23, so there's no gurantee it will work on greater versions of the API or the Support Libraries, so I vehemently advise you to **NOT** update their respective packages, **NOR** change the target framework of the project.
+**NOTE:** SuperRecyclerView was originally built with Android API 23, so there's no guarantee it will work on greater versions of the API or the Support Libraries, so I vehemently advise you to **NOT** update their respective packages, **NOR** change the target framework of the project.
